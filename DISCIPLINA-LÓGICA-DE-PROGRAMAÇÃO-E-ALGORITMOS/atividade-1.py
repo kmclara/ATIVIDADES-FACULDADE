@@ -54,7 +54,7 @@ print(5*(2+3)/4) #Primeiramente, será levado em conta o que está entre (), log
 #ORDENS: 
 print(5+(2-4)) #PARENTESES. 
 
-print(4**3(2+1)) #POTENCIA **
+print(4**3) #POTENCIA **
 
 print(2*3 , 2//3 , 2%3 , 2/3 ) #MULTIPLICAÇÃO, DIVISÃO INTEIRA, RESTO DA DIVISÃO E DIVISÃO
 
