@@ -45,3 +45,17 @@ print(2%3) #Usa-se porcentagem para realizar o resto da divisão. O resto da div
 
 #POTENCIA:
 print(2**3) #Usa-se dois asteristicos para realizar a porcentagem 
+
+#ORDEM DE PROCEDENCIA DOS OPERADORES MATEMATICOS
+#A ordem de procedencia é a ordem em que algo será levado mais em conta primeiramente do que outros. 
+
+print(5*(2+3)/4) #Primeiramente, será levado em conta o que está entre (), logo depois a multiplicação e em seguida, a divisão.
+
+#ORDENS: 
+print(5+(2-4)) #PARENTESES. 
+
+print(4**3(2+1)) #POTENCIA **
+
+print(2*3 , 2//3 , 2%3 , 2/3 ) #MULTIPLICAÇÃO, DIVISÃO INTEIRA, RESTO DA DIVISÃO E DIVISÃO
+
+print(2+3 , 2-3) #SOMA E SUBTRAÇÃO
