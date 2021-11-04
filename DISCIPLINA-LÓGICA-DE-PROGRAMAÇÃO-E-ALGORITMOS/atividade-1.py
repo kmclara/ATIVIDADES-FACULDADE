@@ -22,3 +22,16 @@ print("Hello, " , "Word!") #Neste caso, ao invés do + utilizamos a vírgula. Se
 
 print("O resultado da soma de 2 e 3 é:" , 2+3) #Aqui concatenamos números e texto. Observe que usamos a virgula para realizar a concatenação. 
 #O resultado será: "O resultado da soma de 2 e 3 é: 5"
+
+#OPERADORES MATEMÁTICOS NO PYTHON:
+
+#SOMA:
+print(2+3)
+
+#MULTIPLICAÇÃO: 
+print(2*3)
+
+#DIVISÃO
+print(2/3)
+
+#
