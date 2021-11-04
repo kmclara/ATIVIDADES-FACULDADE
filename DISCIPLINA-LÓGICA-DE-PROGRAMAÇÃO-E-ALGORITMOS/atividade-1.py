@@ -26,12 +26,22 @@ print("O resultado da soma de 2 e 3 é:" , 2+3) #Aqui concatenamos números e te
 #OPERADORES MATEMÁTICOS NO PYTHON:
 
 #SOMA:
-print(2+3)
+print(2+3) #Usa-se o simbolo de + para realizar somas. 
 
 #MULTIPLICAÇÃO: 
-print(2*3)
+print(2*3) #Usa-se o asteristico para realizar multiplicações.
 
-#DIVISÃO
-print(2/3)
+#DIVISÃO:
+print(2/3) #Usa-se uma barra para realizar divisões. 
 
-#
+#SUBTRAÇÃO:
+print(2-3) #Usa-se sinal de - para realizar subtração.
+
+#DIVISÃO "INTEIRA":
+print(2//3) #Usa-se duas barras para realizar a "divisão inteira", que consiste em pegar somente a parte inteira da divisão. 
+
+#RESTO DA DIVISÃO: 
+print(2%3) #Usa-se porcentagem para realizar o resto da divisão. O resto da divisão seria, o que sobra no final dela, não sendo seu resultado.
+
+#POTENCIA:
+print(2**3) #Usa-se dois asteristicos para realizar a porcentagem 
