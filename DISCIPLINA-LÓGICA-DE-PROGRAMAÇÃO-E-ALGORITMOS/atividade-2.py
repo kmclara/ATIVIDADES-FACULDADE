@@ -10,4 +10,7 @@
 NotaDaDisciplina = 10.0
 Disciplina = "Lógica de Programação e Algoritmos"
 
+#Lê-se: A variável "NotaDaDisciplina" recebe o dado 10.0.
+#Lê-se: A variável "Disciplina" recebe o dado "Lógica de Programação e Algoritmos"
+
 print(NotaDaDisciplina, Disciplina)
