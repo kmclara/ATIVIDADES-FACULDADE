@@ -7,6 +7,9 @@
 #Quando atribuimos uma valor á variável, colocamos aquele valor na memória. 
 
 #Exemplo:
+from _typeshed import OpenTextModeUpdating
+
+
 NotaDaDisciplina = 10.0
 Disciplina = "Lógica de Programação e Algoritmos"
 
@@ -48,3 +51,13 @@ print("Apenas letras e sublinha são permitidas para colocar no inicio das nossa
 #Exemplo ERRADO de variável iniciada com exclamação:
 #!Nota = 10.0
 #Isso está ERRADO! Irá dar erro assim como deu quando colocamos número no inicio da nosso variável!
+
+print("Regra 4: A linguagem Python permite o uso de acentuação, porém, não é recomendado!")
+print("Apenas o Python3 permite a acentuação. Demais linguagens de programação não aceitam acentuação.")
+print("Por uma questão de costuma e boa prática, não se é recomendado.")
+
+PreçoDoFeijão = "Não se recomenda, mas pode!"
+print(PreçoDoFeijão)
+
+PrecoDoFeijao = "Se é recomendado."
+print(PrecoDoFeijao)
