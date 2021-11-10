@@ -7,8 +7,6 @@
 #Quando atribuimos uma valor á variável, colocamos aquele valor na memória. 
 
 #Exemplo:
-from _typeshed import OpenTextModeUpdating
-
 
 NotaDaDisciplina = 10.0
 Disciplina = "Lógica de Programação e Algoritmos"
