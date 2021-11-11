@@ -18,4 +18,6 @@ print("Nesta atividade, os números para se descobrir a média são: 23, 19 e 31
 MédiaDosNúmeros = (23+19+31)/3
 print("A média dos números 23, 19 e 31 é igual á {:.2f}!".format(MédiaDosNúmeros))
 
+print("Vale lembrar que, neste caso, podemos lembrar da ordem de - preferencia - do Python. Onde, primeiro se resolve o que está nos parenteses, e logo depois, os demais nas sequencias especificadas pelo python.")
+
 print("_*_" *30)
