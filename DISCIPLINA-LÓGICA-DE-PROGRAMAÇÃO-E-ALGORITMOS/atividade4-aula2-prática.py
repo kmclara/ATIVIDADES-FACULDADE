@@ -48,3 +48,4 @@ print("Nesta atividade, será dois elevado á 10.")
 CálculoDaPotência = (2**10)
 print("O cálculo da potênciação é igual á {}!".format(CálculoDaPotência))
 
+print("_*_" *30)
