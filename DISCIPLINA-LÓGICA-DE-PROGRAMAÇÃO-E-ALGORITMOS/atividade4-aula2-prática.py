@@ -57,3 +57,4 @@ print("Na diferença entre 54 e 57, irá dar -3, mas usando a função abs(), ir
 CálculoDoValorAbsoluto = abs(54-57)
 print("A diferença entre 54 e 57 é igual a -3. Porém, no seu valor absoluto, é igual á {}!".format(CálculoDoValorAbsoluto))
 
+print("_*_" *30)
