@@ -14,3 +14,6 @@ print("_*_" *30)
 #B - A media entre 23, 19 e 31.
 print("Para se fazer a média entre números, é necessário somar todos e dividir pela quantidade de números.")
 print("Nesta atividade, os números para se descobrir a média são: 23, 19 e 31.")
+
+MédiaDosNúmeros = (23+19+31)/3
+print("A média dos números 23, 19 e 31 é igual á {}!".format(MédiaDosNúmeros))
