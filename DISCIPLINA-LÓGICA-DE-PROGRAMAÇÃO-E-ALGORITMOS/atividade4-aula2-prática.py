@@ -58,3 +58,8 @@ CálculoDoValorAbsoluto = abs(54-57)
 print("A diferença entre 54 e 57 é igual a -3. Porém, no seu valor absoluto, é igual á {}!".format(CálculoDoValorAbsoluto))
 
 print("_*_" *30)
+
+#G - O menor valor entre 34, 29 e 31.
+print("Para encontrarmos o menor valor, usamos uma função chamada min(). Está função nós retorna o menor valor em um apanhado de opções.")
+print("Usaremos a função min() para os seguintes números: 34, 29 e 31!")
+
