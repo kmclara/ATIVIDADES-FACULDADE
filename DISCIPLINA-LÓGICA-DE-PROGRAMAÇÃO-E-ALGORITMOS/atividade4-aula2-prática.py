@@ -10,3 +10,7 @@ SomaDosNúmeros = (1 + 2 + 3 + 4 + 5)
 print("A soma dos 5 primeiros números inteiros positivos foi de {}.".format(SomaDosNúmeros))
 
 print("_*_" *30)
+
+#B - A media entre 23, 19 e 31.
+print("Para se fazer a média entre números, é necessário somar todos e dividir pela quantidade de números.")
+print("Nesta atividade, os números para se descobrir a média são: 23, 19 e 31.")
