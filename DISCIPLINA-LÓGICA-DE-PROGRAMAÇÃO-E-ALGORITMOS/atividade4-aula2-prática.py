@@ -38,3 +38,5 @@ print("O mod irá nos retornar o resto da divisão, ou seja, a sobra do mesmo.")
 
 SobraDaDivisão = (403%73)
 print("A sobra da divisão entre 403 e 73 é {}!".format(SobraDaDivisão))
+
+print("_*_" *30)
