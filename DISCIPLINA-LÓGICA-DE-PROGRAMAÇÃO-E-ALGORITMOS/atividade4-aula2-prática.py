@@ -63,3 +63,5 @@ print("_*_" *30)
 print("Para encontrarmos o menor valor, usamos uma função chamada min(). Está função nós retorna o menor valor em um apanhado de opções.")
 print("Usaremos a função min() para os seguintes números: 34, 29 e 31!")
 
+EncontrandoOMenorValor = min(34, 29, 31)
+print("O menor valor entre 34, 29 e 31 é {}!".format(EncontrandoOMenorValor))
