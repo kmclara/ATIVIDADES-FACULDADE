@@ -21,3 +21,8 @@ print("A média dos números 23, 19 e 31 é igual á {:.2f}!".format(MédiaDosN�
 print("Vale lembrar que, neste caso, podemos lembrar da ordem de - preferencia - do Python. Onde, primeiro se resolve o que está nos parenteses, e logo depois, os demais nas sequencias especificadas pelo python.")
 
 print("_*_" *30)
+
+#C - Quantas vezes o número 73 cabe no numero 403.
+print("Para sabermos isso, basta dividirmos 403 por 73, e pegar a parte inteira dessa divisão.")
+print("Para realizarmos está operação, temos nos operadores matemáticos, um operador especifico para isto, o: // - divisão inteira!")
+print("A divisão inteira irá nos retornar justamente aquilo que precisamos, o valor inteiro da divisão.")
