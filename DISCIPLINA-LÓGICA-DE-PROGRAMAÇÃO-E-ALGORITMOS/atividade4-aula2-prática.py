@@ -26,3 +26,6 @@ print("_*_" *30)
 print("Para sabermos isso, basta dividirmos 403 por 73, e pegar a parte inteira dessa divisão.")
 print("Para realizarmos está operação, temos nos operadores matemáticos, um operador especifico para isto, o: // - divisão inteira!")
 print("A divisão inteira irá nos retornar justamente aquilo que precisamos, o valor inteiro da divisão.")
+
+DivisãoInteira = (403//73)
+print("O número 73 cabe {} vezes no número 403!".format(DivisãoInteira))
