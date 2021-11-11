@@ -8,3 +8,5 @@ print("Somatório dos números: ")
 
 SomaDosNúmeros = (1 + 2 + 3 + 4 + 5)
 print("A soma dos 5 primeiros números inteiros positivos foi de {}.".format(SomaDosNúmeros))
+
+print("_*_" *30)
