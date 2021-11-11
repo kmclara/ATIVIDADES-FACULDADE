@@ -40,3 +40,9 @@ SobraDaDivisão = (403%73)
 print("A sobra da divisão entre 403 e 73 é {}!".format(SobraDaDivisão))
 
 print("_*_" *30)
+
+#E - 2 elevado á décima potência. 
+print("Para calcular a potência de um número, basta colocarmos dois **, que nos operadores matemáticos do Python, significa potência.")
+print("Nesta atividade, será dois elevado á 10.")
+
+
