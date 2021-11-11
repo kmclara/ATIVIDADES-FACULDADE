@@ -17,3 +17,5 @@ print("Nesta atividade, os números para se descobrir a média são: 23, 19 e 31
 
 MédiaDosNúmeros = (23+19+31)/3
 print("A média dos números 23, 19 e 31 é igual á {}!".format(MédiaDosNúmeros))
+
+print("_*_" *30)
