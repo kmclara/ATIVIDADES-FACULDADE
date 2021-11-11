@@ -45,4 +45,6 @@ print("_*_" *30)
 print("Para calcular a potência de um número, basta colocarmos dois **, que nos operadores matemáticos do Python, significa potência.")
 print("Nesta atividade, será dois elevado á 10.")
 
+CálculoDaPotência = (2**10)
+print("O cálculo da potênciação é igual á {}!".format(CálculoDaPotência))
 
