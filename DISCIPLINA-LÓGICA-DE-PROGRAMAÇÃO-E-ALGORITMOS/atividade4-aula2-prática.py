@@ -29,3 +29,5 @@ print("A divisão inteira irá nos retornar justamente aquilo que precisamos, o 
 
 DivisãoInteira = (403//73)
 print("O número 73 cabe {} vezes no número 403!".format(DivisãoInteira))
+
+print("_*_" *30)
