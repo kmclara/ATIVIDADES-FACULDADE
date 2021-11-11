@@ -6,3 +6,7 @@ print("Para saber a soma de pai e filho, responda as questões abaixo, e aguarde
 
 IdadeFilho = int(input("Digite a idade do filho: "))
 IdadePai = int(input("Digite a idade do pai: "))
+
+#Realizando a soma das idades: 
+SomaDasIdades = (IdadeFilho+IdadePai)
+
