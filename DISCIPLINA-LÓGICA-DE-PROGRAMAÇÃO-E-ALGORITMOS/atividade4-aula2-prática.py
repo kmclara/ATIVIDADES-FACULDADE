@@ -54,3 +54,6 @@ print("_*_" *30)
 print("Para acharmos o valor absoluto, usaremos uma função denominada abs(). Essa função nos retornará o valor absoluto da operação.")
 print("Na diferença entre 54 e 57, irá dar -3, mas usando a função abs(), irá dar 3, o valor absoluto.")
 
+CálculoDoValorAbsoluto = abs(54-57)
+print("A diferença entre 54 e 57 é igual a -3. Porém, no seu valor absoluto, é igual á {}!".format(CálculoDoValorAbsoluto))
+
