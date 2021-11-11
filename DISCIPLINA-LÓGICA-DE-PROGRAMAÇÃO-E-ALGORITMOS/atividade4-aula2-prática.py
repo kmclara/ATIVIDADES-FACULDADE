@@ -31,3 +31,8 @@ DivisãoInteira = (403//73)
 print("O número 73 cabe {} vezes no número 403!".format(DivisãoInteira))
 
 print("_*_" *30)
+
+#D - A sobra quando 403 é dividido por 73.
+print("Pra calcularmos a sobra de uma divisão, usamos o operador matemático denominado MOD - %.")
+print("O mod irá nos retornar o resto da divisão, ou seja, a sobra do mesmo.")
+
