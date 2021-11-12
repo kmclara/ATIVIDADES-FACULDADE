@@ -84,4 +84,4 @@ String4 = "Lógica de Programação e Algoritmos"
 print(String4[0:6])
 
 print("Obs: Sempre se conta um a menos. Então se você quiser fatiar uma string que vai do 0 ao 5, como foi o caso acima, sempre deve colocar um a mais.")
-print("Então, ao invés de ficar [0:5] irá ficar [0:6].")
+print("Então, para que apareça a palavra Lógica, ao invés de ficar [0:5] irá ficar [0:6].")
