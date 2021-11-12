@@ -71,4 +71,6 @@ NotaDoUsuário = 17.5
 NomeDoUsuário = "João"
 ResultadoParaOUsuário = "A nota de {} foi {:.2f}!".format(NomeDoUsuário, NotaDoUsuário)
 
+print(ResultadoParaOUsuário)
+
 print("Aqui colocamos a formatação das casas decimais dentro das chaves.")
