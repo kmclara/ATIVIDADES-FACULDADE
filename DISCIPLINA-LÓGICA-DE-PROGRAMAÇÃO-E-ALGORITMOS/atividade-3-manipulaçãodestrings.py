@@ -2,3 +2,8 @@
 
 print("Alguns exemplos de manipulação de strings e explicações.")
 print("_*_" *30)
+
+#Concatenação de Strings:
+print("Na concatenação de strings, fazemos a junção ou soma de duas strings.")
+print("Se usa o sinal de + para realizar a concatenação!")
+print("Exemplo: ")
