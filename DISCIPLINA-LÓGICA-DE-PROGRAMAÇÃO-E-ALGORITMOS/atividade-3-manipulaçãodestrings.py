@@ -45,3 +45,11 @@ NotaDoEstudante = 8.5
 Disciplina = "Algoritmos"
 Resultado = "A nota foi de %.2f na disciplina de %s!" %(NotaDoEstudante, Disciplina)
 print(Resultado)
+
+print("Podemos observar que depois de cada percentual, foi colocado letras diferentes, isso porque há uma separação!")
+print("A separação é: ")
+print("%d e %i: Números inteiros.")
+print("%f: Números de ponto flutuante.")
+print("%s: Strings.")
+
+print("_*_" *30)
