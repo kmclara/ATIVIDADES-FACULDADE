@@ -13,3 +13,8 @@ String2 = String1 + "e Algoritmos"
 print("A concatenação se resultará em: {}".format(String2))
 
 print("_*_" *30)
+
+#Repetindo Strings na Concatenação:
+print("Exemplo: ")
+String3 = "A" + "-" *10 + "B"
+print(String3)
