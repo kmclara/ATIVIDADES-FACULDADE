@@ -11,3 +11,5 @@ print("Exemplo: ")
 String1 = "Lógica de Programação"
 String2 = String1 + "e Algoritmos"
 print("A concatenação se resultará em: {}".format(String2))
+
+print("_*_" *30)
