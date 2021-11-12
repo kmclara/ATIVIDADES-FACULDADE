@@ -21,3 +21,5 @@ print(String3)
 
 print("A repetição ocorreu com o traço, com o auxilio da multiplicação - *30 -.")
 print("Pode-se usar isso para qualquer repetição de string, com qualquer numeração que você deseja que se multiplique!")
+
+print("_*_" *30)
