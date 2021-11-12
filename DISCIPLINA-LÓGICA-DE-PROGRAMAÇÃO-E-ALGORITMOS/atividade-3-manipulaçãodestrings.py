@@ -37,3 +37,6 @@ print("E o % no final da frase, para que indiquemos que variavel queremos que fi
 print("Este comando se assemelha muito com o .format(), só que mais antigo.")
 
 print("_*_" *30)
+
+#Composição com várias variáveis:
+print("Exemplo: ")
