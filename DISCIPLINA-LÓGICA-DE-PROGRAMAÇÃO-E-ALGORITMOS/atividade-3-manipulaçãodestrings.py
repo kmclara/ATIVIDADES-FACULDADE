@@ -66,3 +66,7 @@ print(Resultado)
 print("A formatação/definição foi feita na seguinte parte - .2 - no %f.")
 
 print("Agora, se formos fazer isso com o .format(): ")
+
+NotaDoUsuário = 17.5
+NomeDoUsuário = "João"
+ResultadoParaOUsuário = ""
