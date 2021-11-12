@@ -53,3 +53,8 @@ print("%f: Números de ponto flutuante.")
 print("%s: Strings.")
 
 print("_*_" *30)
+
+#Definindo casas decimais: 
+print("Para que não fique mais casas depois a virgula, podemos formatar para que fique quantas casas quisermos depois da virgula.")
+print("No jeito de formatação com %, usamos da seguinte forma: ")
+
