@@ -31,3 +31,9 @@ print("Exemplo: ")
 NotaDoAluno = 8.5
 ResultadoParaOAluno = "Sua nota é %f na disciplina de Lógica de Programação e Algoritmos!" %NotaDoAluno
 print(ResultadoParaOAluno)
+
+print("O sinal de %f serve para que coloquemos o valor da variavel que desejarmos ali.")
+print("E o % no final da frase, para que indiquemos que variavel queremos que fique no lugar de %f.")
+print("Este comando se assemelha muito com o .format(), só que mais antigo.")
+
+print("_*_" *30)
