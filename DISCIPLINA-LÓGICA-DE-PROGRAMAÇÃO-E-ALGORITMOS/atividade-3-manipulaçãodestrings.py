@@ -63,3 +63,6 @@ Matéria = "Lógica"
 Resultado = "A nota foi de %.2f na disciplina de %s." %(NotaDoUniveristario, Matéria)
 print(Resultado)
 
+print("A formatação/definição foi feita na seguinte parte - .2 - no %f.")
+
+print("Agora, se formos fazer isso com o .format(): ")
