@@ -23,3 +23,7 @@ print("A repetição ocorreu com o traço, com o auxilio da multiplicação - *3
 print("Pode-se usar isso para qualquer repetição de string, com qualquer numeração que você deseja que se multiplique!")
 
 print("_*_" *30)
+
+#Composição:
+print("A composição serve para juntarmos diferentes variáveis e strings.")
+print("Exemplo: ")
