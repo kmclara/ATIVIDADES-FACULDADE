@@ -76,3 +76,7 @@ print(ResultadoParaOUsuário)
 print("Aqui colocamos a formatação das casas decimais dentro das chaves.")
 
 print("_*_" *30)
+
+#Fatiamento
+print("Podemos recordar/fatiar um pedaço da string.")
+
