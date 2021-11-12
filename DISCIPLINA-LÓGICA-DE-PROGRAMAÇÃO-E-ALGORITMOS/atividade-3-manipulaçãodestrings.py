@@ -27,3 +27,7 @@ print("_*_" *30)
 #Composição:
 print("A composição serve para juntarmos diferentes variáveis e strings.")
 print("Exemplo: ")
+
+NotaDoAluno = 8.5
+ResultadoParaOAluno = "Sua nota é %f na disciplina de Lógica de Programação e Algoritmos!" %NotaDoAluno
+print(ResultadoParaOAluno)
