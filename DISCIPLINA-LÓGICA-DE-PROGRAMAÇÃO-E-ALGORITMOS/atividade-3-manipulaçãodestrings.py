@@ -40,3 +40,8 @@ print("_*_" *30)
 
 #Composição com várias variáveis:
 print("Exemplo: ")
+
+NotaDoEstudante = 8.5
+Disciplina = "Algoritmos"
+Resultado = "A nota foi de %.2f na disciplina de %s!" %(NotaDoEstudante, Disciplina)
+print(Resultado)
