@@ -58,3 +58,8 @@ print("_*_" *30)
 print("Para que não fique mais casas depois a virgula, podemos formatar para que fique quantas casas quisermos depois da virgula.")
 print("No jeito de formatação com %, usamos da seguinte forma: ")
 
+NotaDoUniveristario = 8.5
+Matéria = "Lógica"
+Resultado = "A nota foi de %.2f na disciplina de %s." %(NotaDoUniveristario, Matéria)
+print(Resultado)
+
