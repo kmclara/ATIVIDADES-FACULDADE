@@ -10,9 +10,13 @@ A = 3
 
 print(A)
 
+print("_*_" *30)
+ 
 #Atividade 2: Atribuir o valor 2 na variavel b.
 print("Faremos o mesmo processo do exercicio de cima.")
 
 B = 2
 
 print(B)
+
+print("_*_" *30)
