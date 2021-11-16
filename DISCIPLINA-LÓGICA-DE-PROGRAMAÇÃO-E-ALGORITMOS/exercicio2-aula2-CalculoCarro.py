@@ -11,3 +11,5 @@ QuantidadeDeDiasAlugados = float(input("Quantos dias o carro está sendo alugado
 
 #Cálculo do preço de Km's rodados: 
 CalculoKmsRodados = (QuantidadeDeKmPercorridos * 0,15)
+#Calculo do preço de dias alugados: 
+CalculoDiasAlugados = (QuantidadeDeDiasAlugados * 60)
