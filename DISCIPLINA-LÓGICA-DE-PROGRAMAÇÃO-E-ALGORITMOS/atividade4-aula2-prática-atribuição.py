@@ -30,3 +30,6 @@ print(ExpressaoMatematica)
 print("Poderiamos colocar parenteses nas multiplicações.")
 
 print("_*_" *30)
+
+#Atividade 3: Execute as seguintes Atribuições e Faça o que se pede!
+print("Alguns exercicios em torno das variáveis abaixo.")
