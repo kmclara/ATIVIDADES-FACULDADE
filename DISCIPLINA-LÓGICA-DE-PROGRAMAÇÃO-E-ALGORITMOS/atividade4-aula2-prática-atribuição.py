@@ -8,4 +8,4 @@ print("O sinal de atribuição no Python é =.")
 
 A = 3
 
-print("")
+print(A)
