@@ -23,3 +23,10 @@ print("_*_" *30)
 
 #Atividade 3: Atribuir a expressão matemática na variavel. 
 print("Aqui iremos atribuir uma expressão matemática em uma variável.")
+
+ExpressaoMatematica = 3*3 + 2*2
+
+print(ExpressaoMatematica)
+print("Poderiamos colocar parenteses nas multiplicações.")
+
+print("_*_" *30)
