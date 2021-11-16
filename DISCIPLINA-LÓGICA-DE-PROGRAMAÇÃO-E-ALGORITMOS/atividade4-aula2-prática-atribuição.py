@@ -64,3 +64,9 @@ print("Letra D: Escrever String1 e String2 alternando entre si.")
 print(String1 + " " + String2 + " " + String1 + " " + String2 + " " + String1 ) 
 
 print("_*_" *30)
+
+print("Letra E: Junção da String2 e String3 e repetição da junção.")
+
+print((String2 + String3 + " ") *5)
+
+print("_*_" *30)
