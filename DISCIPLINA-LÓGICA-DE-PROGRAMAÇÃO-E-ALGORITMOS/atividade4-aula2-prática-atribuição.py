@@ -58,3 +58,9 @@ print("Letra C: Repetição da String2 e String3.")
 print((String1 + " ") + (String2 + " ") *2 + (String3 + " ") *2)
 
 print("_*_" *30)
+
+print("Letra D: Escrever String1 e String2 alternando entre si.")
+
+print(String1 + " " + String2 + " " + String1 + " " + String2 + " " + String1 ) 
+
+print("_*_" *30)
