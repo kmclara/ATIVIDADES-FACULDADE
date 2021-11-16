@@ -41,3 +41,7 @@ String3 = "Cod"
 print("Letra A: Fazer com que os conteúdos das variáveis saiam: ant bant cod")
 
 print(String1 + " " + String2 +  " " + String3)
+
+print("Foi colocado as aspas entre os sinais de mais, para se obter os espaços entre as variáveis na hora de rodar.")
+
+print("_*_" *30)
