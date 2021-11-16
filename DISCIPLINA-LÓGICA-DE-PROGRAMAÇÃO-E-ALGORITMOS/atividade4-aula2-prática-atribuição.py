@@ -38,3 +38,6 @@ String1 = "Ant"
 String2 = "Bant"
 String3 = "Cod"
 
+print("Letra A: Fazer com que os conteúdos das variáveis saiam: ant bant cod")
+
+print(String1 + " " + String2 +  " " + String3)
