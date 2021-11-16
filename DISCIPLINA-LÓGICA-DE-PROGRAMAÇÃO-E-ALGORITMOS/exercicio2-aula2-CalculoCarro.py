@@ -15,3 +15,9 @@ CalculoKmsRodados = (QuantidadeDeKmPercorridos * 0,15)
 CalculoDiasAlugados = (QuantidadeDeDiasAlugados * 60)
 #Somatória o total a ser pago:
 TotalASerPago = (CalculoKmsRodados + CalculoDiasAlugados)
+
+#Demonstrando resultado ao Usuário: 
+print("Km = {}. Dias = {}.".format(QuantidadeDeKmPercorridos, QuantidadeDeDiasAlugados))
+print("O total a ser pago é de {}!".format(TotalASerPago))
+
+print("Obrigada por usar nosso programa!")
