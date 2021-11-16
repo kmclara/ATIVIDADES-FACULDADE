@@ -9,3 +9,10 @@ print("O sinal de atribuição no Python é =.")
 A = 3
 
 print(A)
+
+#Atividade 2: Atribuir o valor 2 na variavel b.
+print("Faremos o mesmo processo do exercicio de cima.")
+
+B = 2
+
+print(B)
