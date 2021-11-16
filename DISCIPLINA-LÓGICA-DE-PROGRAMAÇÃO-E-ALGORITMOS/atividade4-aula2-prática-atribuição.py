@@ -33,3 +33,8 @@ print("_*_" *30)
 
 #Atividade 3: Execute as seguintes Atribuições e Faça o que se pede!
 print("Alguns exercicios em torno das variáveis abaixo.")
+
+String1 = "Ant"
+String2 = "Bant"
+String3 = "Cod"
+
