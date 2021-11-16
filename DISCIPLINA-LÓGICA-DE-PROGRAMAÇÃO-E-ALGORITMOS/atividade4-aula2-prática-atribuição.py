@@ -52,3 +52,7 @@ print("Para fazermos a repetição, devemos usar a multiplicação.")
 print((String1 + " ") *10)
 
 print("_*_" *30)
+
+print("Letra C: Repetição da String2 e String3.")
+
+print((String1 + " ") + (String2 + " ") *2 + (String3 + " ") *2)
