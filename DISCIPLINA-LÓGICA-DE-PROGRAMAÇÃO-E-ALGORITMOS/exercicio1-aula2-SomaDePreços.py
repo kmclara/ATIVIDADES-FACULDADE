@@ -12,3 +12,6 @@ PercentualDeDescontoDoProduto = float(input("Qual o percentual de desconto do pr
 CalculoPercentualEPrecoProduto = PrecoDoProduto * (PercentualDeDescontoDoProduto / 100)
 #Calculando o preço final do produto:
 CalculoPrecoFinalDoProduto = PrecoDoProduto - CalculoPercentualEPrecoProduto 
+
+#Resultado para ao usuário: 
+print("O desconto do produto é e {}%! E o preço final do produto é de {}!".format(CalculoPercentualEPrecoProduto, CalculoPrecoFinalDoProduto))
