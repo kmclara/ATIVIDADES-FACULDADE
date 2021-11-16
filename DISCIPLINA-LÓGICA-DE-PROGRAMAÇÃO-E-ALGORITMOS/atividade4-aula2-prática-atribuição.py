@@ -49,4 +49,4 @@ print("_*_" *30)
 print("Letra B: Fazer a string Ant se repetir 10 vezes.")
 print("Para fazermos a repetição, devemos usar a multiplicação.")
 
-print(String1 *30)
+print((String1 + " ") *10)
