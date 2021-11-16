@@ -10,3 +10,5 @@ PercentualDeDescontoDoProduto = float(input("Qual o percentual de desconto do pr
 
 #Calculando o percentual de desconto do produto: 
 CalculoPercentualEPrecoProduto = PrecoDoProduto * (PercentualDeDescontoDoProduto / 100)
+#Calculando o preço final do produto:
+CalculoPrecoFinalDoProduto = PrecoDoProduto - CalculoPercentualEPrecoProduto 
