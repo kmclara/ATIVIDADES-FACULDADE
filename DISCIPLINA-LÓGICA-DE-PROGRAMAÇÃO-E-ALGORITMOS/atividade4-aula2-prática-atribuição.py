@@ -20,3 +20,6 @@ B = 2
 print(B)
 
 print("_*_" *30)
+
+#Atividade 3: Atribuir a expressão matemática na variavel. 
+print("Aqui iremos atribuir uma expressão matemática em uma variável.")
