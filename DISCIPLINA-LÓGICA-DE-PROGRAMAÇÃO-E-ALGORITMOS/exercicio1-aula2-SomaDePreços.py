@@ -3,3 +3,7 @@
 
 print("Começando o exercício 1!")
 print("_*_" *30)
+
+#Perguntando ao usuário o preço do produto e seu percentual de desconto: 
+PrecoDoProduto = float(input("Qual o preço do produto escolhido? "))
+PercentualDeDescontoDoProduto = float(input("Qual o percentual de desconto do produto? "))
