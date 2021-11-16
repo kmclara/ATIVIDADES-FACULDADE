@@ -14,4 +14,4 @@ CalculoPercentualEPrecoProduto = PrecoDoProduto * (PercentualDeDescontoDoProduto
 CalculoPrecoFinalDoProduto = PrecoDoProduto - CalculoPercentualEPrecoProduto 
 
 #Resultado para ao usuário: 
-print("O desconto do produto é de {}%! E o preço final do produto é de {}!".format(CalculoPercentualEPrecoProduto, CalculoPrecoFinalDoProduto))
+print("O desconto do produto é de {}%! E o preço final do produto é de R${}!".format(CalculoPercentualEPrecoProduto, CalculoPrecoFinalDoProduto))
