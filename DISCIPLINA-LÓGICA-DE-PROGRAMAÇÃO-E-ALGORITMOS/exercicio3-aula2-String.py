@@ -16,3 +16,5 @@ MetadeDaString1 = String1[:int(TamanhoDaString1/2)] #Colocamos o int() para que 
 #Imprimindo apenas os dois últimos caracteres da metade da string.
 print(MetadeDaString1[2:])
 
+print("Obrigada por usar nosso programa!")
+
