@@ -9,3 +9,8 @@ print("_*_" *30)
 String1 = input("Informe uma frase: ")
 #Vendo o tamanho dela com a função len().
 TamanhoDaString1 = len(String1)
+
+#Variavel para que peguemos a metade da frase: 
+MetadeDaString1 = String1[:int(TamanhoDaString1/2)] #Colocamos o int() para que pegue a parte inteira apenas da metade da String1, pois dependendo do seu tamanho, pode vir com número com virgula. Colocamos ela dividida por 2 pois precisamos da metade dela.
+
+
