@@ -5,6 +5,5 @@
 print("Começando Exercicio 3!")
 print("_*_" *30)
 
-#Criando as variáveis com frases aleatórias que se completam.
+#Criando as variáveis com frases aleatórias.
 String1 = input("Informe uma frase: ")
-String2 = input("Informe outra frase: ")
