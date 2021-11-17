@@ -5,5 +5,7 @@
 print("Começando Exercicio 3!")
 print("_*_" *30)
 
-#Criando as variáveis com frases aleatórias.
+#Criando a variável pedindo a frase aleátorio ao usuário: 
 String1 = input("Informe uma frase: ")
+#Vendo o tamanho dela com a função len().
+TamanhoDaString1 = len(String1)
