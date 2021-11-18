@@ -15,3 +15,9 @@ if ValorInteiroNumero1 > ValorInteiroNumerico2:
     print("O número {} é maior que o número {}!".format(ValorInteiroNumero1, ValorInteiroNumerico2))
 
 print("_*_" *30)
+
+#Atividade prática 2: Desenvolva um programa que lê um valor inteiro e descobre
+#se ele é par ou impar. 
+
+print("ATIVIDADE 2 - ATIVIDADE PRÁTICA - AULA 3 - CONDIÇÃO COMPOSTA")
+print("_*_" *30)
