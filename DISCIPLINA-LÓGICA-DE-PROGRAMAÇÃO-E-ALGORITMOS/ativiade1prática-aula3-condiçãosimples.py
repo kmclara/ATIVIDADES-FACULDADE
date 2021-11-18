@@ -9,3 +9,7 @@ print("_*_" *30)
 #Pedindo ao usuário dois valores inteiros númericos: 
 ValorInteiroNumero1 = int(input("Digite o primeiro valor númerico inteiro: "))
 ValorInteiroNumerico2 = int(input("Digite o segundo valor númerico inteiro: "))
+
+#Comparando se o primeiro valor é maior que o segundo valor usando uma condicional simples: 
+if ValorInteiroNumero1 > ValorInteiroNumerico2: 
+    print("O número {} é maior que o número {}!".format(ValorInteiroNumero1, ValorInteiroNumerico2))
