@@ -30,3 +30,5 @@ if (ValorInteiro%2) == 0: #Para saber se um número é par, basta dividir por 2 
     print("O valor {} é par!".format(ValorInteiro))
 else:
     print("O valor {} é impar!".format(ValorInteiro))
+
+print("_*_" *30)
