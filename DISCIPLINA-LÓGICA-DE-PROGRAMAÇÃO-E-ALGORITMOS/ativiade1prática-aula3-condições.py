@@ -26,3 +26,7 @@ print("_*_" *30)
 ValorInteiro = int(input("Digite um valor inteiro: "))
 
 #Condições: 
+if (ValorInteiro%2) == 0: #Para saber se um número é par, basta dividir por 2 e se o resto for 0, é impar, por isso usamos a operação matematica % (resto da divisão), e falamos que ela é igual (representado por ==) á 0.
+    print("O valor {} é par!".format(ValorInteiro))
+else:
+    print("O valor {} é impar!".format(ValorInteiro))
