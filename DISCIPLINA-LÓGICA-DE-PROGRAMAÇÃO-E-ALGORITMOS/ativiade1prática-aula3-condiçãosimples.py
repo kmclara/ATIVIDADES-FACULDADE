@@ -5,3 +5,7 @@
 
 print("ATIVIDADE 1 - ATIVIDADE PRÁTICA - AULA 3 - CONDIÇÃO SIMPLES")
 print("_*_" *30)
+
+#Pedindo ao usuário dois valores inteiros númericos: 
+ValorInteiroNúmero1 = int(input("Digite um valor númerico inteiro: "))
+ValorInteiroNumerico2 = int(input("Digite o segundo valor númerico inteiro: "))
