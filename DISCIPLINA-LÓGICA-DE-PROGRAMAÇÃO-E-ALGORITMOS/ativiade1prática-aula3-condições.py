@@ -21,3 +21,8 @@ print("_*_" *30)
 
 print("ATIVIDADE 2 - ATIVIDADE PRÁTICA - AULA 3 - CONDIÇÃO COMPOSTA")
 print("_*_" *30)
+
+#Pedindo um valor inteiro ao usuário:
+ValorInteiro = int(input("Digite um valor inteiro: "))
+
+#Condições: 
