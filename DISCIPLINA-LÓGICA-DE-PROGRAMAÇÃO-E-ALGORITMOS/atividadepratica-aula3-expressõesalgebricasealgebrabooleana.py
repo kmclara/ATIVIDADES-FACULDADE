@@ -4,3 +4,8 @@
 
 print("ATIVIDADE PRÁTICA - AULA 3 - NOTA DO ALUNO")
 print("_*_" *30)
+
+#Pedindo ao aluno/usuário suas notas finais nas três matérias:
+MateriadeMatematica = float(input("Digite sua nota final de matemática: "))
+MateriadeLogica = float(input("Digite sua nota final de lógica: "))
+MateriadeEducaçaoFinanceira = float(input("Digite sua nota final de educação financeira: "))
