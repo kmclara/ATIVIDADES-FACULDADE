@@ -9,3 +9,6 @@ print("_*_" *30)
 MateriadeMatematica = float(input("Digite sua nota final de matemática: "))
 MateriadeLogica = float(input("Digite sua nota final de lógica: "))
 MateriadeEducaçaoFinanceira = float(input("Digite sua nota final de educação financeira: "))
+
+print("A média para passar de ano é de 7 pontos. Caso você consiga adquirir essa média, poderá comemorar o Natal sem preocupações com a recuperação!")
+print("Confira seus resultados abaixo:")
