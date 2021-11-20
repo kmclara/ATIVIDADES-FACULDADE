@@ -12,3 +12,11 @@ NomeDoUsuario = str(input("Digite seu nome: "))
 #Perguntando ao usuário a sua idade:
 IdadeDoUsuario = int(input("Por favor, nos informe a sua idade: "))
 
+#Condições/Condicionais:
+if NomeDoUsuario == "Vinicius":
+    print("Olá Vinicius! Muito prazer em te conhecer!")
+elif IdadeDoUsuario < 18:
+    print("Olá {}. Aparentemente você não é o Vinicius e possui menos de 18 anos.".format(NomeDoUsuario))
+elif IdadeDoUsuario >= 100:
+    print("Bom, {}, acho que você não existe!".format(NomeDoUsuario))
+
