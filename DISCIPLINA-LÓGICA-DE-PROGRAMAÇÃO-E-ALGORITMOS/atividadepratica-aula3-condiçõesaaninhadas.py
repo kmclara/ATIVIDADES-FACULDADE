@@ -23,3 +23,12 @@ QuantidadeDeFrutasEscolhida = int(input("Qual a quantidade de fruta escolhida? D
 CálculoMaçã = (QuantidadeDeFrutasEscolhida * 2.30)
 CálculoLaranja = (QuantidadeDeFrutasEscolhida * 3.60)
 CálculoBanana = (QuantidadeDeFrutasEscolhida * 1.85)
+
+#Condições:
+if EscolhaDeFrutas == 1:
+    print("Você escolheu a fruta 1: Maçã. A quantidade escolhida foi de {} e o preço final será de {}!".format(QuantidadeDeFrutasEscolhida, CálculoMaçã))
+else:
+    if EscolhaDeFrutas == 2:
+        print("Você escolheu a fruta 2: Laranja. A quantidade escolhida foi de {} e o seu preço final de {}!".format(QuantidadeDeFrutasEscolhida, CálculoLaranja))
+    if EscolhaDeFrutas == 3:
+        print("Você escolheu a fruta 3- Banana. A quantidade escolhida foi de {} e o preço final é de {}! ".format(QuantidadeDeFrutasEscolhida, CálculoBanana))
