@@ -13,14 +13,11 @@ print("1- Maçã")
 print("2- Laranja")
 print("3- Banana")
 
-#Perguntando nome do usuário:
-NomeDoUsuário = str(input("Olá! Por favor, nos informe seu nome: "))
-
 #Perguntando qual foi a sua escolha:
-EscolhaDeFrutas = int(input("Qual foi a sua escolha? 1, 2 ou 3? Nós informe, por favor, {}! ".format(NomeDoUsuário)))
+EscolhaDeFrutas = int(input("Qual foi a sua escolha? 1, 2 ou 3? Nós informe, por favor: "))
 
 #Perguntando a quantidade de frutas que ele escolheu:
-QuantidadeDeFrutasEscolhida = int(input("{} qual a quantidade de fruta escolhida? Digite por favor: ".format(NomeDoUsuário)))
+QuantidadeDeFrutasEscolhida = int(input("Qual a quantidade de fruta escolhida? Digite por favor: "))
 
 #Cálculo das frutas e suas quantidades:
 CálculoMaçã = (QuantidadeDeFrutasEscolhida * 2.30)
