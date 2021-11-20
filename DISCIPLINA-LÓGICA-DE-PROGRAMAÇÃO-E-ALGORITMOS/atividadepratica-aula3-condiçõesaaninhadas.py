@@ -7,6 +7,9 @@
 print("ATIVIDADE PRÁTICA - AULA 3 - CONDIÇÕES ANINHADAS - COMPRA DE FRUTAS!")
 print("_*_" *30)
 
+#Perguntando o nome ao usuário: 
+NomeDoUsuário = str(input("Olá! Por favor, nos informe seu nome: "))
+
 #Pedindo ao usuário para escolher as opções de frutas:
 print("Por favor, escolha a fruta que você deseja: ")
 print("1- Maçã")
