@@ -32,3 +32,5 @@ else:
         print("Você escolheu a fruta 2: Laranja. A quantidade escolhida foi de {} e o seu preço final de {}!".format(QuantidadeDeFrutasEscolhida, CálculoLaranja))
     if EscolhaDeFrutas == 3:
         print("Você escolheu a fruta 3- Banana. A quantidade escolhida foi de {} e o preço final é de {}! ".format(QuantidadeDeFrutasEscolhida, CálculoBanana))
+    else:
+        print("Produto inexistente!")    
