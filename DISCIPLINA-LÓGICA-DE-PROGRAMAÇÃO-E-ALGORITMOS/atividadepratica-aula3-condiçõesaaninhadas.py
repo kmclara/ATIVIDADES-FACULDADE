@@ -6,3 +6,9 @@
 
 print("ATIVIDADE PRÁTICA - AULA 3 - CONDIÇÕES ANINHADAS - COMPRA DE FRUTAS!")
 print("_*_" *30)
+
+#Pedindo ao usuário para escolher as opções de frutas:
+print("Por favor, escolha a fruta que você deseja: ")
+print("1- Maçã")
+print("2- Laranja")
+print("3- Banana")
