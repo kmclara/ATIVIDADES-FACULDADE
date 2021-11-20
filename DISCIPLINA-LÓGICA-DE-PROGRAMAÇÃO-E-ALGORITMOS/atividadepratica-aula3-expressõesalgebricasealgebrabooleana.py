@@ -12,3 +12,10 @@ MateriadeEducaçaoFinanceira = float(input("Digite sua nota final de educação 
 
 print("A média para passar de ano é de 7 pontos. Caso você consiga adquirir essa média, poderá comemorar o Natal sem preocupações com a recuperação!")
 print("Confira seus resultados abaixo:")
+
+#Identificando se ele conseguiu a média ou não:
+if MateriadeMatematica >=7 and MateriadeLogica >=7 and MateriadeEducaçaoFinanceira >= 7:
+    print("Você passou de ano! Aproveite as festas! ")
+else:
+    print("Infelizmente você não passou de ano! Tente a recuperação no dia 20/12!")
+
