@@ -19,4 +19,7 @@ elif IdadeDoUsuario < 18:
     print("Olá {}. Aparentemente você não é o Vinicius e possui menos de 18 anos.".format(NomeDoUsuario))
 elif IdadeDoUsuario >= 100:
     print("Bom, {}, acho que você não existe!".format(NomeDoUsuario))
+else:
+    print("Ok {}, você é maior de idade, porém não é o Vinicius!".format(NomeDoUsuario))
+    
 
