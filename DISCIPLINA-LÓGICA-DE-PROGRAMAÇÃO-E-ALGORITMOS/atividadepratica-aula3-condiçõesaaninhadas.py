@@ -15,3 +15,6 @@ print("Por favor, escolha a fruta que você deseja, {}: ".format(NomeDoUsuário)
 print("1- Maçã")
 print("2- Laranja")
 print("3- Banana")
+
+#Perguntando a quantidade de frutas que ele escolheu:
+QuantidadeDeFrutasEscolhida = int(input("{} qual a quantidade de fruta escolhida? Digite por favor: ".format(NomeDoUsuário)))
