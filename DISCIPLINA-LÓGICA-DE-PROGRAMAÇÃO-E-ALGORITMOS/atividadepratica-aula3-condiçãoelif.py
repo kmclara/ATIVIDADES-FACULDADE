@@ -5,3 +5,10 @@
 
 print("ATIVIDADE PRÁTICA - AULA 3 - CONDICIONAIS DE MÚLTIPLA ESCOLHA - ELIF")
 print("_*_" *30)
+
+#Perguntando o nome do usuário:
+NomeDoUsuario = str(input("Digite seu nome: "))
+
+#Perguntando ao usuário a sua idade:
+IdadeDoUsuario = int(input("Por favor, nos informe a sua idade: "))
+
