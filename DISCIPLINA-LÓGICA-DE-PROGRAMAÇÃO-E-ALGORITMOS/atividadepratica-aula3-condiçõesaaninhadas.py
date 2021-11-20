@@ -11,7 +11,7 @@ print("_*_" *30)
 NomeDoUsuário = str(input("Olá! Por favor, nos informe seu nome: "))
 
 #Pedindo ao usuário para escolher as opções de frutas:
-print("Por favor, escolha a fruta que você deseja: ")
+print("Por favor, escolha a fruta que você deseja, {}: ".format(NomeDoUsuário))
 print("1- Maçã")
 print("2- Laranja")
 print("3- Banana")
