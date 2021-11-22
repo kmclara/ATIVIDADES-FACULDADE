@@ -46,3 +46,12 @@ while True:
   if Texto == "sair":
     break
 print("Encerrando o programa....") 
+
+nome = " "
+while not nome:
+  nome = input("Qual seu nome? ")
+valor = int(input("Digite um valor: "))
+if valor:
+  print("Você digitou um número diferente de 0")
+else:
+  print("Você digitou 0")
