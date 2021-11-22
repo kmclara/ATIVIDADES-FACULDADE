@@ -1,3 +1,6 @@
+from typing import Text
+
+
 x = 1
 while (x <= 5):
     print(x)
@@ -33,3 +36,13 @@ while (Texto != "sair."):
   Texto = input(" ")
 #Quando o usuário escrever a palvra sair, o programa se encerrará
 print("Encerrando programa... ")
+
+print("Digite uma mensagem que irei repetir com você!")
+print("Para sair, digite: sair")
+#Percebe-se que ao invés de uma condição lógica, apenas usamos um booleano, neste caso, o nosso programa ficaria em um loop infinito, mas usando break, fazerá com que ele pare assim que acharmos necessário.
+while True:
+  Texto= input(" ")
+  print(Texto)
+  if Texto == "sair":
+    break
+print("Encerrando o programa....") 
