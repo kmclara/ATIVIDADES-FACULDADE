@@ -11,8 +11,25 @@ while (x <= 5):
 soma = 0
 contagem = 1 
 while (contagem <= 5):
-  x = float(input("Digite o nota {}".format(contagem)))
+  x = float(input("Digite o nota {}: ".format(contagem)))
   soma +=x #Equivale a soma = x+1
   contagem +=1 #Equivale a contagem = x+1
 print("Somatório é {}".format(soma))
 
+Valor = int(input("Digite um valor maior que 0: "))
+while (Valor <=0):
+  Valor = int(input("Digite um valor maior que 0: "))
+print("O valor digitado foi {}. Encerrando programa...".format(Valor))
+
+#Com String
+#Situando o usuário: 
+print("Digite uma mensagem que irei repetir para você!")
+print("Para encerrar, escreva: sair.")
+#Adicionando texto para interação:
+Texto = input(" ")
+#Equanto o texto digitado pelo usuario for diferente da palavra "sair" o programa deve repetir o input de texto
+while (Texto != "sair."):
+  print(Texto)
+  Texto = input(" ")
+#Quando o usuário escrever a palvra sair, o programa se encerrará
+print("Encerrando programa... ")
