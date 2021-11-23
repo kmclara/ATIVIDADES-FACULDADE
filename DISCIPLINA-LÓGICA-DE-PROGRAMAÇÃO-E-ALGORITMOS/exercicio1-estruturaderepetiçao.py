@@ -24,3 +24,6 @@ while (x <= 12):
 print("EXERCICIO 1. LETRA B: ")
 
 print("ESTRUTURA FOR: ")
+
+for number in range (0, 9, 2):
+    print(number)
