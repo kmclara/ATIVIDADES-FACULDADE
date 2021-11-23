@@ -20,3 +20,7 @@ while (x <= 12):
     print(x)
     #Implementando 1 no x, toda vez que ele executa o print, ele soma 1 no x lá em cima, sucessivamente até ar 12.
     x += 1
+
+print("EXERCICIO 1. LETRA B: ")
+
+print("ESTRUTURA FOR: ")
