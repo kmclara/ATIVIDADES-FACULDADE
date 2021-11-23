@@ -8,3 +8,7 @@ print("_*_" *30)
 print("EXERCICIO 1. LETRA A:")
 
 print("ESTRUTURA FOR: ")
+
+for numeros in range (3, 13, 1):
+    print(numeros)
+
