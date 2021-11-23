@@ -50,3 +50,6 @@ print("3 - MULTIPLICAÇÃO (*)")
 print("4 - DIVISÃO (/)")
 print("CASO QUEIRA ENCERRAR O PROGRAMA, POR FAVOR, DIGITE: SAIR.")
 print("_*_" *30)
+
+#Pedindo para colocar o que ele escolheu: 
+EscolhaDoUsuario = int(input("Qual operação você escolheu? Adicione aqui, por favor: "))
