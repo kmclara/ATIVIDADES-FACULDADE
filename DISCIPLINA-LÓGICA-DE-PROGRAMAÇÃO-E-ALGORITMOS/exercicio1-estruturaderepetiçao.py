@@ -53,3 +53,11 @@ print("_*_" *30)
 
 #Pedindo para colocar o que ele escolheu: 
 EscolhaDoUsuario = int(input("Qual operação você escolheu? Adicione aqui, por favor: "))
+
+#Pedindo ao usuário os dois valores para realizar a operação:
+Valor1 = float(input("Digite o primeiro valor para realizar a operação desejada: "))
+Valor2 = float(input("Digite o segundo valor para realizar a operação desejada: "))
+
+#Se, senão, senão se
+if EscolhaDoUsuario == 1:
+    
