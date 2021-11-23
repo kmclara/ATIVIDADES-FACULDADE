@@ -12,3 +12,11 @@ print("ESTRUTURA FOR: ")
 for numeros in range (3, 13, 1):
     print(numeros)
 
+print("ESTRUTURA WHILE: ")
+#Atribuindo 3 na variavel x
+x = 3
+#Enquanto x for menor ou igual a 12, faça:
+while (x <= 12):
+    print(x)
+    #Implementando 1 no x, toda vez que ele executa o print, ele soma 1 no x lá em cima, sucessivamente até ar 12.
+    x += 1
