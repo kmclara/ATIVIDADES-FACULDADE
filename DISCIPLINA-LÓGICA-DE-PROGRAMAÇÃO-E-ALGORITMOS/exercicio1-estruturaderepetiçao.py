@@ -48,7 +48,7 @@ print("A - ADIÇÃO (+)")
 print("S - SUBTRAÇÃO (-)")
 print("M - MULTIPLICAÇÃO (*)")
 print("D - DIVISÃO (/)")
-print("CASO QUEIRA ENCERRAR O PROGRAMA, POR FAVOR, DIGITE: SAIR.")
+print("Q - SAIR.")
 print("_*_" *30)
 
 #Pedindo para colocar o que ele escolheu: 
@@ -58,7 +58,7 @@ EscolhaDoUsuario = str(input("Qual operação você escolheu? Adicione aqui, por
 Valor1 = float(input("Digite o primeiro valor para realizar a operação desejada: "))
 Valor2 = float(input("Digite o segundo valor para realizar a operação desejada: "))
 
-while EscolhaDoUsuario != "S":
+while EscolhaDoUsuario != "Q":
     if EscolhaDoUsuario == "A":
         Soma = Valor1 + Valor2 
         print("{} + {} = {}".format(Valor1, Valor2, Soma))
