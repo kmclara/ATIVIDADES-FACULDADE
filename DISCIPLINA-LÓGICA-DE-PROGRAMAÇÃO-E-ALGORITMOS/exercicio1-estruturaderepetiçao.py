@@ -34,4 +34,7 @@ y = 0
 while (y <= 8):
     print(y)
     y += 2
-    
+
+print("_*_" *30)
+
+print("RESOLUÇÃO DE PROBLEMAS!")
