@@ -29,3 +29,9 @@ for number in range (0, 9, 2):
     print(number)
 
 print("ESTRUTURA WHILE: ")
+
+y = 0
+while (y <= 8):
+    print(y)
+    y += 2
+    
