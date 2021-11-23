@@ -44,31 +44,31 @@ print("RESOLUÇÃO DE PROBLEMAS!")
 
 print("CALCULADORA.")
 print("ESCOLHA UMA OPÇÃO PARA REALIZAR A OPERAÇÃO DESEJADA: ")
-print("1 - ADIÇÃO (+)")
-print("2 - SUBTRAÇÃO (-)")
-print("3 - MULTIPLICAÇÃO (*)")
-print("4 - DIVISÃO (/)")
+print("A - ADIÇÃO (+)")
+print("S - SUBTRAÇÃO (-)")
+print("M - MULTIPLICAÇÃO (*)")
+print("D - DIVISÃO (/)")
 print("CASO QUEIRA ENCERRAR O PROGRAMA, POR FAVOR, DIGITE: SAIR.")
 print("_*_" *30)
 
 #Pedindo para colocar o que ele escolheu: 
-EscolhaDoUsuario = int(input("Qual operação você escolheu? Adicione aqui, por favor: "))
+EscolhaDoUsuario = str(input("Qual operação você escolheu? Adicione aqui, por favor: "))
 
 #Pedindo ao usuário os dois valores para realizar a operação:
 Valor1 = float(input("Digite o primeiro valor para realizar a operação desejada: "))
 Valor2 = float(input("Digite o segundo valor para realizar a operação desejada: "))
 
-while EscolhaDoUsuario != "SAIR.":
-    if EscolhaDoUsuario == 1:
+while EscolhaDoUsuario != "S":
+    if EscolhaDoUsuario == "A":
         Soma = Valor1 + Valor2 
         print("{} + {} = {}".format(Valor1, Valor2, Soma))
-    elif EscolhaDoUsuario == 2:
+    elif EscolhaDoUsuario == "S":
         Subtração = Valor1 - Valor2
         print("{} - {} = {}".format(Valor1, Valor2, Subtração))
-    elif EscolhaDoUsuario == 3:
+    elif EscolhaDoUsuario == "M":
         Multiplicaçao = Valor1 * Valor2
         print("{} * {} = {}".format(Valor1, Valor2, Multiplicaçao))
-    elif EscolhaDoUsuario == 4:
+    elif EscolhaDoUsuario == "D":
         Divisao = Valor1 / Valor2
         print("{} / {} = ".format(Valor1, Valor2, Divisao))
     else:
@@ -77,4 +77,5 @@ while EscolhaDoUsuario != "SAIR.":
     EscolhaDoUsuario = int(input("Qual operação você escolheu? Adicione aqui, por favor: "))
     Valor1 = float(input("Digite o primeiro valor para realizar a operação desejada: "))
     Valor2 = float(input("Digite o segundo valor para realizar a operação desejada: "))
-    
+
+print("Encerrando programa... ")
