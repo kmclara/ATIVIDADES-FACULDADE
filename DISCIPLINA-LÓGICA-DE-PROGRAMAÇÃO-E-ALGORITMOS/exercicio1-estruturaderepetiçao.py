@@ -4,3 +4,7 @@
 
 print("ATIVIDADES DE LAÇOS DE REPETIÇÃO!")
 print("_*_" *30)
+
+print("EXERCICIO 1. LETRA A:")
+
+print("ESTRUTURA FOR: ")
