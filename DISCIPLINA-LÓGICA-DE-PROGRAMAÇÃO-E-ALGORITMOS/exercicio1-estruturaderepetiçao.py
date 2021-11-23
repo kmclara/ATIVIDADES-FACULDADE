@@ -58,6 +58,23 @@ EscolhaDoUsuario = int(input("Qual operação você escolheu? Adicione aqui, por
 Valor1 = float(input("Digite o primeiro valor para realizar a operação desejada: "))
 Valor2 = float(input("Digite o segundo valor para realizar a operação desejada: "))
 
-#Se, senão, senão se
-if EscolhaDoUsuario == 1:
+while EscolhaDoUsuario != "SAIR.":
+    if EscolhaDoUsuario == 1:
+        Soma = Valor1 + Valor2 
+        print("{} + {} = {}".format(Valor1, Valor2, Soma))
+    elif EscolhaDoUsuario == 2:
+        Subtração = Valor1 - Valor2
+        print("{} - {} = {}".format(Valor1, Valor2, Subtração))
+    elif EscolhaDoUsuario == 3:
+        Multiplicaçao = Valor1 * Valor2
+        print("{} * {} = {}".format(Valor1, Valor2, Multiplicaçao))
+    elif EscolhaDoUsuario == 4:
+        Divisao = Valor1 / Valor2
+        print("{} / {} = ".format(Valor1, Valor2, Divisao))
+    else:
+        print("OPERAÇÃO INVALIDA!")
+    
+    EscolhaDoUsuario = int(input("Qual operação você escolheu? Adicione aqui, por favor: "))
+    Valor1 = float(input("Digite o primeiro valor para realizar a operação desejada: "))
+    Valor2 = float(input("Digite o segundo valor para realizar a operação desejada: "))
     
