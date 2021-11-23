@@ -38,3 +38,15 @@ while (y <= 8):
 print("_*_" *30)
 
 print("RESOLUÇÃO DE PROBLEMAS!")
+#Escreva um algoritmo que leia dois valores numéricos e que pergunte ao usuário qual operação ele deseja realizar: 
+#adição, subtração, multiplicação, divisão e sair. Exiba na tela o resultado da operação desejada.
+#Repita até que a opção saída seja escolhida. 
+
+print("CALCULADORA.")
+print("ESCOLHA UMA OPÇÃO PARA REALIZAR A OPERAÇÃO DESEJADA: ")
+print("1 - ADIÇÃO (+)")
+print("2 - SUBTRAÇÃO (-)")
+print("3 - MULTIPLICAÇÃO (*)")
+print("4 - DIVISÃO (/)")
+print("CASO QUEIRA ENCERRAR O PROGRAMA, POR FAVOR, DIGITE: SAIR.")
+print("_*_" *30)
