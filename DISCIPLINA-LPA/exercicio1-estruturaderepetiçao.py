@@ -55,10 +55,11 @@ print("_*_" *30)
 EscolhaDoUsuario = str(input("Qual operação você escolheu? Adicione aqui, por favor: "))
 
 #Pedindo ao usuário os dois valores para realizar a operação:
-Valor1 = float(input("Digite o primeiro valor para realizar a operação desejada: "))
-Valor2 = float(input("Digite o segundo valor para realizar a operação desejada: "))
 
 while EscolhaDoUsuario != "Q":
+    Valor1 = float(input("Digite o primeiro valor para realizar a operação desejada: "))
+    Valor2 = float(input("Digite o segundo valor para realizar a operação desejada: "))
+    
     if EscolhaDoUsuario == "A":
         Soma = Valor1 + Valor2 
         print("{} + {} = {}".format(Valor1, Valor2, Soma))
@@ -73,9 +74,7 @@ while EscolhaDoUsuario != "Q":
         print("{} / {} = ".format(Valor1, Valor2, Divisao))
     else:
         print("OPERAÇÃO INVALIDA!")
-    
+        
     EscolhaDoUsuario = str(input("Qual operação você escolheu? Adicione aqui, por favor: "))
-    Valor1 = float(input("Digite o primeiro valor para realizar a operação desejada: "))
-    Valor2 = float(input("Digite o segundo valor para realizar a operação desejada: "))
 
 print("Encerrando programa... ")
