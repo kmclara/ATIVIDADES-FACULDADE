@@ -74,7 +74,7 @@ while EscolhaDoUsuario != "Q":
     else:
         print("OPERAÇÃO INVALIDA!")
     
-    EscolhaDoUsuario = int(input("Qual operação você escolheu? Adicione aqui, por favor: "))
+    EscolhaDoUsuario = str(input("Qual operação você escolheu? Adicione aqui, por favor: "))
     Valor1 = float(input("Digite o primeiro valor para realizar a operação desejada: "))
     Valor2 = float(input("Digite o segundo valor para realizar a operação desejada: "))
 

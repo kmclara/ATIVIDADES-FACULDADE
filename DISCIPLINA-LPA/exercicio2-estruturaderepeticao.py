@@ -6,3 +6,30 @@ print("EXERCICIO 1 - AULA PRÁTICA")
 print("CAIXA ELETRÔNICO")
 print("___" *30)
 
+#Pedindo um valor ao usuário:
+Valor = int(input("Digite um valor em R$: "))
+
+if Valor >= 100:
+    #Pegar a parte inteira da divisão, para sabermos quantas cedulas de 100 cabem no valor descrito pelo usuário
+    Cedulas100 = Valor // 100
+    Valor2 = Valor - Cedulas100 * 100
+    print("Cédulas e 100: {}".format(Cedulas100))
+if Valor >= 50:
+    Cedulas50 = Valor // 50
+    Valor3 = Valor - Cedulas50 * 50
+    print("Cédulas de 50: {}".format(Cedulas50))
+if Valor >= 20:
+    Cedulas20 = Valor // 20
+    Valor4 = Valor - Cedulas20 * 20
+    print("Cedulas de 20: {}".format(Cedulas20))
+if Valor >= 10:
+    Cedulas10 = Valor // 10
+    Valor5 = Valor - Cedulas10 * 10
+    print("Cédulas de 10: {}".format(Cedulas10))
+if Valor >= 5 :
+    Cedulas5 = Valor // 5
+    Valor6 = Valor - Cedulas5 * 5
+    print("Cédulas de 5: {}".format(Cedulas5))
+if Valor:
+    Cedulas1 = Valor
+    print("Cedulas de 1: {}".format(Cedulas1))
