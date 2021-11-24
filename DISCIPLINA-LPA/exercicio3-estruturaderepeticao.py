@@ -11,3 +11,27 @@
 #arrecadado e a média de idade das pessoas. 
 
 print("_________"*30)
+
+TotalPessoas = 0
+TotalDinheiro = 0
+
+#Adicionando pergunta de idade ao usuário dentro de um laço de repetição: 
+while True:
+    IdadeDoUsuário = input("Nos infome sua idade: ")
+    if IdadeDoUsuário == "sair":
+        break
+    IdadeDoUsuário = int(IdadeDoUsuário)
+    TotalPessoas += 1
+    if IdadeDoUsuário < 3:
+        Ingresso = 0
+    elif IdadeDoUsuário > 12:
+        Ingresso = 30
+    else:
+        Ingresso = 15
+    TotalDinheiro += Ingresso
+
+MediaIdadePessoas = TotalDinheiro / TotalPessoas
+
+print("Total de Pessoas: {}".format(TotalPessoas))
+print("Total Arrecadado: {}".format(TotalDinheiro))
+print("Total Média Arrecadada: {}".format(MediaIdadePessoas))
