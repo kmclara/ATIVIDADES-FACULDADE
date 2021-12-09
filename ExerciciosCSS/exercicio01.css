@@ -14,4 +14,5 @@ p{background-color: rgba(15,20,255,255);}
 
 body{
     background-image: url("images/fundo.png");
+    background-attachment: fixed;
 }
