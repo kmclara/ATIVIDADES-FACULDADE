@@ -11,3 +11,7 @@ p{background-color: rgba(15,20,255,255);}
  .minhalista li{
      color: darksalmon;
 }
+
+body{
+    background-image: url("fundo.jpg");
+}
