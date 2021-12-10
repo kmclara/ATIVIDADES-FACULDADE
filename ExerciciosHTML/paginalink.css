@@ -1,6 +1,7 @@
 .imagem{
-    background-image: url(imagens/githung.png);
+    background-image: url(imagens/github-logo-background.jpg.webp) no-repeat;
     width: 200px;
     height: 200px;
     display: block;
+    background-size: contain;
 }
