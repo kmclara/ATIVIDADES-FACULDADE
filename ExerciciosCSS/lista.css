@@ -1,5 +1,7 @@
 .alternada{
     list-style: upper-alpha;
     font-size: 30px;
-    color: gray;
+    color:green;
+    background-color: black;
+    width: fit-content;
 }
