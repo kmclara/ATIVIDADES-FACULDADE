@@ -6,6 +6,7 @@
     background-color: cadetblue;
     text-align: center;
     position: absolute;
+    
 }
 
 .quadradoum{
@@ -30,4 +31,9 @@
     right: 0px;
     top: 0px;
     background-color: floralwhite;
+}
+
+body{
+    background-image: url(images/textura-preta_1205-327.jpg);
+    background-attachment: fixed;
 }
