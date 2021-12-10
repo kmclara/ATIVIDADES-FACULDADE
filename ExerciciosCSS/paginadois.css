@@ -37,3 +37,8 @@ body{
     background-image: url(images/textura-preta_1205-327.jpg);
     background-attachment: fixed;
 }
+
+p{
+    text-align: center;
+    color: gainsboro;
+}
