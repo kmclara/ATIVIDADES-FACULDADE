@@ -5,3 +5,11 @@
     width: fit-content;
     background-color: black;
 }
+
+.alternada li:nth-child(odd){
+    background-color: blueviolet;
+}
+
+.alternada li:nth-child(even){
+    background-color: darkorchid;
+}
