@@ -5,3 +5,10 @@
     display: block;
     background-size: contain;
 }
+
+.imagem:hover{
+    background-position: 0px 50px;
+}
+.imagem:active{
+    background-position: 50px 50px;
+}
