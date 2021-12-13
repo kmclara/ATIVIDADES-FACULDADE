@@ -132,8 +132,8 @@ posicaoGato = int(input("Em qual posição quer alocar o GATO? "))
 posicaoRato = int(input("Em qual posição quer alocar o RATO? "))
 posicaoOsso = int(input("Em qual posição quer alocar o OSSO? "))
 
-# O rato deve ficar no quarto 1 e o osso no quarto 5
-if (posicaoRato, posicaoOsso) == (1, 5):
+# O rato deve ficar no quarto 1 e o osso no quarto 5 e o gato no 7
+if (posicaoGato, posicaoRato, posicaoOsso) == (7 ,1, 5):
     exibirMensagemDeVitoria(3)
 else:
     gameOver()
