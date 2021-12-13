@@ -15,7 +15,7 @@ while True:
     elif idadeDaCrianca >=15:
         print("O aluno(a) {} tem {} anos e está no Ensino Médio.".format(nomeDaCrianca, idadeDaCrianca))
 #Adicionando novamente a pergunta e especificando com a condicional se a resposta for 1, para sair. 
-    escolhaDoUsuario = (input("Deseja sair? 1- SIM 2- NÃO"))
+    escolhaDoUsuario = (input("Deseja sair? 1- SIM 2- NÃO "))
     if escolhaDoUsuario == "1":
         break
 
