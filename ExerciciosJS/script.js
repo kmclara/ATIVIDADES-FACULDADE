@@ -37,3 +37,9 @@ else{
 
 //let mensagem = "Olá ${nome}"
 //console.log(mensagem)
+
+//Para sabermos o tipo do conteudo dentro de uma variavel:
+let sobrenome = "Nome"
+console.log(typeof sobrenome)
+let numero = 25
+console.log(typeof numero)
