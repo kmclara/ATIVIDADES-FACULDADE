@@ -10,6 +10,12 @@ sobrenome = "Maria";
 const animal = "Cachorro"; 
 let cor = "azul";
 
+//Mensagens combinadas:
+console.log("Ola" + nome);
+console.log("A" + nome + "gosta da cor" + cor)
+//Fazendo combinação sem a string, tudo dentro das aspas: Para isso usamos ${nome da variaveis}
+let mensagem = 'Olá ${nome}.';
+console.log(mensagem)
 //_____________________________________
 
 //Variavel em JS:
