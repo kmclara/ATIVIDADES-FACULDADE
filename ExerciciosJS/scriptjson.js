@@ -8,3 +8,7 @@ console.log(pessoa["nome"]);
 
 //para mudar o valor de dentro da variavel: 
 pessoa.nome= "Mateus"
+
+//Lista de objetos:
+let listaObjetos = ["carro", "apartamento", "videogame"]
+console.log(listaObjetos[0]);
