@@ -1,0 +1,1 @@
+let botão = document.querySelector("#botão");
